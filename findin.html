@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        
+        function joinArrayValues(myArray, separator) {
+            
+            for (let each of myArray) {
+                let final= myArray.join(separator)
+                return final
+            }
+           
+            
+            
+        }
+
+        /* Please do not modify anything below this line */
+
+        function main() {
+        let myArray = [1,2,3,4,5,6]
+        let separator =  ","
+        
+        let newString = joinArrayValues(myArray, separator);
+        
+        console.log(newString);
+        }
+
+        main()
+        
+        
+    </script>
+</body>
+</html>
